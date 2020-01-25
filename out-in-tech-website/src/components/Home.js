@@ -22,13 +22,18 @@ function Home() {
       <div className="homeHeader">Out in Tech</div>
       <div className="home row">
         <div className="homeInfo col-lg-5">
-          Hey Denver!
-          {/* To bring queers into the know of who's who and what's what when it comes to the tech environment around Denver Proper. */}
+          <div className="mission">
+            <h1>Hey Denver!</h1>
+            <h3>Our mission is to create space for Queer individuals who identify as a Techie through networking, panels, and other social events.
+          </h3>
+            <Events />
+
+          </div>
         </div>
         <img className="computerGif col-lg-7" src={process.env.PUBLIC_URL + '/Computer-gif-01.gif'} alt="loading..."></img>
       </div>
 
-      <Events />
+
       <Team />
     </div >
   );
