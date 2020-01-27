@@ -1,0 +1,27 @@
+section.large {
+  height: 100vh;
+  background-color: rgb(3, 4, 6);
+}
+
+.mission {
+  text-align: center;
+  color: white;
+}
+.events {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  background: #B97C9F;
+  margin-top: 5%;
+  
+  /* border-radius: 50%; */
+  /* padding: 5%;
+  background-color: grey;
+  text-align: center;
+  color: white; */
+
+}
