@@ -14,7 +14,7 @@ function Team() {
           {
             name: 'Lee Knight',
             photo: './lee.png',
-            bio: "Michael is a Front End Developer for Rocket Software. He's lived in Denver for the past two years and loves hiking to new scenic points, photography and yoga. In his spare time, he geeks out playing Overwatch.",
+            bio: "Lee is a Front End Developer, trombonist, and bull rider. Proudly spreading diversity, and inclusion throughout the front range. When not coding, performing, competing or speaking they enjoy a peaty scotch, a tobacco pipe and quality family time.",
             linkedin: "https://www.linkedin.com/in/lee-knight-44658aab/"
           },
           {
@@ -50,31 +50,31 @@ function Team() {
       </div>
       <div className="row">
         {/* <div className="col-lg-4"> */}
-          <div className="teamCard" onMouseEnter={() => toggleMe()} onMouseLeave={() => toggleMe()}>
-            {toggle ?
-              team.board.map(item =>
-                <div className="team-container">
-                  <div className="team-bio-content" key={item.id}>
-                    <h1 className="team-name">{item.name}</h1>
-                    <h4 className="team-bio-font text-left">{item.bio}</h4>
-                    <a href={item.linkedin} target="_blank" className="linkedin"><i class="fab fa-linkedin-in"></i></a>
-                  </div>
+        <div className="teamCard" onMouseEnter={() => toggleMe()} onMouseLeave={() => toggleMe()}>
+          {toggle ?
+            team.board.map(item =>
+              <div className="team-container">
+                <div className="team-bio-content" key={item.id}>
+                  <h1 className="team-name">{item.name}</h1>
+                  <h4 className="team-bio-font text-left">{item.bio}</h4>
+                  <a href={item.linkedin} target="_blank" className="linkedin"><i class="fab fa-linkedin-in"></i></a>
                 </div>
-              )
+              </div>
+            )
 
-              :
-              team.board.map(item =>
-                <div className="team-container">
-                  {/* <div className="col-lg-4"></div> */}
-                  <div className="images" key={item.id}>
-                    <h1 className="team-name">{item.name}</h1>
-                    <img className="boardImage" src={`${item.photo}`}></img>
-                  </div>
-                  {/* <div className="col-lg-4"></div> */}
+            :
+            team.board.map(item =>
+              <div className="team-container">
+                {/* <div className="col-lg-4"></div> */}
+                <div className="images" key={item.id}>
+                  <h1 className="team-name">{item.name}</h1>
+                  <img className="boardImage" src={`${item.photo}`}></img>
                 </div>
-              )
-            }
-          </div>
+                {/* <div className="col-lg-4"></div> */}
+              </div>
+            )
+          }
+        </div>
         {/* </div> */}
       </div>
 
