@@ -7,11 +7,21 @@ section.events-section {
   height: 80vh;
   background-color: #e2b9c3;
 }
+.mission-word {
+  font-size: 3em;
+  font-weight: bold;
+  transform: scaleY(1.7);
+  color: #B97C9F;
+  display: flex;
+  justify-content: center;
+}
 
+.mission-row {
+  padding: 15%;
+}
 .mission {
   text-align: center;
   color: #95403F;
-
 }
 
 .event-row {
@@ -23,41 +33,29 @@ section.events-section {
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  font-size: 20px;
+  font-size: 50px;
   color: #fff;
   line-height: 480px;
-  text-align: center;
+  /* text-align: center; */
   border-color: #f29f5a;
   background: transparent;
-  margin-top: 5%;
-  border:1px solid red;
+  /* margin-top: 5%; */
 }
+
 .events:hover{
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  font-size: 20px;
+  font-size: 50px;
   color: #fff;
   text-align: center;
   background: #B97C9F;
   margin-top: 5%;
+  transition: all .4s ease;
+-webkit-transition: all .4s ease;
 }
 
 .event-link{
-  /* z-index: 100; */
+  margin-top:80px;
   text-decoration: none !important;
-  color: white;
-  font-size: 50px;
-  /* padding-top:400px !important; */
-  /* display:flex; */
-  /* align-items: baseline */
-  
-}
-
-.event-link:hover{
-  text-decoration: none !important;
-  color: #76568D !important;
-  font-weight: bold;
-  /* font-size: 55px; */
-
 }

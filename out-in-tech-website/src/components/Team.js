@@ -46,35 +46,36 @@ function Team() {
   return (
     <section className="TeamWrapper">
       <div className="row team-title-row">
-        {/* <div className=" col-lg-4"></div> */}
-        <h1 className="team-title ">Denver Chapter Board</h1>
-        {/* <div className="col-lg-4"></div> */}
+        <h1 className="team-title ">Chapter Board</h1>
       </div>
       <div className="row">
-
-        <div className="teamCard" onMouseEnter={() => toggleMe()} onMouseLeave={() => toggleMe()}>
-          {toggle ?
-            team.board.map(item =>
-              <div className="team-container">
-                <div className="team-bio-content" key={item.id}>
-                  <h1 className="team-name">{item.name}</h1>
-                  <h4 className="team-bio-font text-left">{item.bio}</h4>
-                  <a href={item.linkedin} target="_blank" className="linkedin"><i class="fab fa-linkedin-in"></i></a>
+        {/* <div className="col-lg-4"> */}
+          <div className="teamCard" onMouseEnter={() => toggleMe()} onMouseLeave={() => toggleMe()}>
+            {toggle ?
+              team.board.map(item =>
+                <div className="team-container">
+                  <div className="team-bio-content" key={item.id}>
+                    <h1 className="team-name">{item.name}</h1>
+                    <h4 className="team-bio-font text-left">{item.bio}</h4>
+                    <a href={item.linkedin} target="_blank" className="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
                 </div>
-              </div>
-            )
+              )
 
-            :
-            team.board.map(item =>
-              <div className="team-container">
-                <div className="images" key={item.id}>
-                  <h1 className="team-name">{item.name}</h1>
-                  <img className="boardImage" src={`${item.photo}`}></img>
+              :
+              team.board.map(item =>
+                <div className="team-container">
+                  {/* <div className="col-lg-4"></div> */}
+                  <div className="images" key={item.id}>
+                    <h1 className="team-name">{item.name}</h1>
+                    <img className="boardImage" src={`${item.photo}`}></img>
+                  </div>
+                  {/* <div className="col-lg-4"></div> */}
                 </div>
-              </div>
-            )
-          }
-        </div>
+              )
+            }
+          </div>
+        {/* </div> */}
       </div>
 
     </section>

@@ -6,22 +6,31 @@ function Events() {
     <div>
       <section className="mission">
 
-        <div className="row">
+        <div className="row ">
           <div className="col-lg-2"></div>
+
+          {/* <div className="col-lg-4 mission-word">
+            MISSION
+          </div> */}
           <div className="mission-info col-lg-8 justify-content-center">
             <div className="mission">
-              <h1>Our mission is to create space for Queer individuals who identify as a Techie through networking, panels, and other social events.
-            </h1>
+              <h2>Our mission is to create space for Queer individuals who identify as Techies through networking, panels, and other social events.
+            </h2>
             </div>
           </div>
           <div className="col-lg-2"></div>
         </div>
-      {/* </section>
+        {/* </section>
       <section className="events-section"> */}
+        {/* <div className="col-lg-2"></div> */}
+
         <div className="row event-row ">
-          <div className=" events ">
-            <a className="event-link" href="" target="_blank">Upcoming Event</a>
+          <a className="event-link" href="" target="_blank">
+            <div className="events">
+              Upcoming Event
           </div >
+          </a>
+          {/* <div className="col-lg-2"></div> */}
         </div>
       </section>
     </div>

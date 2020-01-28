@@ -26,11 +26,16 @@ section.TeamWrapper  {
 }
 .teamCard {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   justify-content: flex-start;
   padding: 5%;
+
   /* background-color: lightgrey; */
 }
+/* .team-row {
+  columns: 2 auto;
+
+} */
 
 .boardImage{
   padding: 10px;
