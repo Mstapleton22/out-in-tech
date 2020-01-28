@@ -1,13 +1,15 @@
-// import React from 'react';
-// import Events from './Events'
-// import Team from './Team'
+import React from 'react';
+import Events from './Events'
+import Team from './Team'
 
 
 
-// function Contact() {
-//   return (
-   
-//   );
-// }
+function Contact() {
+  return (
+    <section className="contact">
+      hello
+   </section>
+  );
+}
 
-// export default Contact;
+export default Contact;

@@ -44,11 +44,11 @@ function Team() {
 
 
   return (
-    <div className="TeamWrapper">
+    <section className="TeamWrapper">
       <div className="row team-title-row">
-        <div className=" col-lg-4"></div>
-        <h1 className="team-title col-lg-4">Denver Chapter Board</h1>
-        <div className="col-lg-4"></div>
+        {/* <div className=" col-lg-4"></div> */}
+        <h1 className="team-title ">Denver Chapter Board</h1>
+        {/* <div className="col-lg-4"></div> */}
       </div>
       <div className="row">
 
@@ -77,7 +77,7 @@ function Team() {
         </div>
       </div>
 
-    </div>
+    </section>
   );
 
 }

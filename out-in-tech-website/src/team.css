@@ -1,13 +1,16 @@
 /* Team */
-.TeamWrapper {
-  padding: 10px;
-
+section.TeamWrapper  {
+  height: 100vh;
+  background-color: #713E47;
+  /* padding: 10px; */
 }
 .team-title {
-  background-color: pink;
-  padding: 2%;
-  border-radius: 25px;
-  text-align: center;
+  /* background-color: pink; */
+  font-size: 6em;
+  font-weight: bold;
+  color: #B97C9F;
+  display: flex;
+  justify-content: center;
 }
 /* .team-title-row {
   z-index: 100;
@@ -26,7 +29,7 @@
   flex-direction: row;
   justify-content: flex-start;
   padding: 5%;
-  background-color: lightgrey;
+  /* background-color: lightgrey; */
 }
 
 .boardImage{
@@ -36,29 +39,33 @@
 
 .team-name{
   display: flex;
-  justify-content: flex-end;
-  background-color: white;
+  justify-content: center;
+  /* background-color: rgba(255, 255, 255, 0.426); */
   padding: 10px;
+  color: #f29f5a;
+  font-weight: bold;
   
 }
 
 
 .team-bio-content {
-  background-color: white;
+  color: #f29f5a;
+  /* background-color: rgba(255, 255, 255, 0.611); */
   min-height: 220px;
   /* display: flex;
   justify-content: center; */
 }
 
 .team-bio-font{
-  /* display: flex;
-  justify-content: left; */
-  font-size: .6em;
+  font-size: .7em;
   padding: 50px;
 }
 
 .linkedin {
   text-decoration: none !important;
+  color: #f29f5a;
+  display:flex;
+  justify-content: space-around;
 }
 
 .linkedin:hover {
