@@ -5,3 +5,30 @@ section.contact  {
   /* background-color: ; */
   /* padding: 10px; */
 }
+
+.contact-header{
+  font-size: 4em;
+  font-weight: bold;
+  color: #323874;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.slack-icon {
+  text-decoration: none !important;
+  font-size: 4em;
+  font-weight: bold;
+  color: #B97C9F;
+  /* display: flex;
+  justify-content: center; */
+}
+
+
+.slack-icon:hover {
+  text-decoration: none;
+  font-size: 4em;
+  font-weight: bold;
+  color: #B97C9F;
+  display: flex;
+  justify-content: center;
+}

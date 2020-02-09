@@ -52,32 +52,6 @@ section.mission {
 -webkit-transition: all .4s ease;
 }
 
-/* .calendar {
-  z-index: -100;
-font-size: 21em;
-}
-.calendar-content{
-  position: absolute;
-  z-index: 100;
-  margin-left:75px;
-  margin-top: 250px;
-  color: pink !important;
- 
-}
-.calendar-content-date{
-  position: absolute;
-  z-index: 100;
-  margin-left: 90px;
-  margin-top: 300px;
-  color: pink !important;
-}
-.calendar-content-register{
-  position: absolute;
-  z-index: 100;
-  margin-left: 125px;
-  margin-top: 350px;
-  color: pink !important;
-} */
 .events-header {
   font-size: 4em;
   font-weight: bold;

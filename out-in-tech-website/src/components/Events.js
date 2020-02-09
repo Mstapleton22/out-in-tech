@@ -12,7 +12,7 @@ function Events() {
         {/* <div className="col-lg-2"></div> */}
         <div className="row event-row ">
           <a className="event-link" href="https://www.eventbrite.com/e/out-in-tech-denver-diversity-and-inclusion-in-tech-tickets-93019404543" target="_blank">
-            <img className="event-image" src="februaryevent.png" />
+            <img alt="Event info on click for registration" className="event-image" src="februaryevent.png" />
           </a>
         </div>
       </section>

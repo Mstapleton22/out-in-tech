@@ -53,25 +53,33 @@ function Team() {
         <div className="teamCard" onMouseEnter={() => toggleMe()} onMouseLeave={() => toggleMe()}>
           {toggle ?
             team.board.map(item =>
-              <div className="team-container">
+             <div className="container">
+              <div className="team-container ">
                 <div className="team-bio-content" key={item.id}>
+                <div className="row">
                   <h1 className="team-name">{item.name}</h1>
+                  </div>
+                  <div className="row">
                   <h4 className="team-bio-font text-left">{item.bio}</h4>
-                  <a href={item.linkedin} target="_blank" className="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                  <a href={item.linkedin} target="_blank" className="linkedin row"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
                 </div>
               </div>
+              </div>
             )
-
             :
             team.board.map(item =>
-              <div className="team-container">
+              <div className="container">
+              <div className="team-container row">
                 {/* <div className="col-lg-4"></div> */}
-                <div className="images" key={item.id}>
+                <div className="images col-sm" key={item.id}>
                   <h1 className="team-name">{item.name}</h1>
                   <img className="boardImage" src={`${item.photo}`}></img>
                 </div>
                 {/* <div className="col-lg-4"></div> */}
               </div>
+              </div>
+
             )
           }
         </div>
